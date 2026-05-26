@@ -21,7 +21,7 @@ def get_registros():
 
 @app.route('/api/peritajes', methods=['POST'])
 def crear_peritaje():
-	nuevaPlaca = "DSB-212"
+	nuevaPlaca = "dsb-212".upper()
 	placas.append(nuevaPlaca)
 	return jsonify({
 		"estado":"Nueva placa registrada de forma correcta",
