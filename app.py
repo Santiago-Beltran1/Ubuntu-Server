@@ -34,6 +34,11 @@ def traer_peritajes():
 		"peritajes": placas
 	})
 
+@app.route('/api/inventario', methods=['GET'])
+def inventariado():
+	return jsonify({
+		"Total de vehículos que se han matriculado:"
+	})
 
 
 if __name__ == "__main__":
