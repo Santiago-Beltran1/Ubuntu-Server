@@ -1,17 +1,1 @@
-ini, TOML
-#Ignorar entornos virtuales (Nunca deben subirse)
 venv/
-ENV/
-
-#Ignorar archivos de cáche de ejecución de Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-#Ignorar bases de datos locales de desarrollo
-*.sqlite3
-
-#Ignorar los archivos del sistema operativo anfitrión
-.DS_store
-Thumbs.db
