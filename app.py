@@ -38,9 +38,8 @@ def traer_peritajes():
 @app.route('/api/inventario', methods=['GET'])
 def inventariado():
 	return jsonify({
-		"Total de vehículos que se han matriculado:"
 		"vehiculos": len(inventario),
-        "motos_registradas": inventario
+	        "motos_registradas": inventario
 	})
 
 
