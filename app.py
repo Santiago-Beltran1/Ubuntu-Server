@@ -27,7 +27,7 @@ def crear_peritaje():
 	return jsonify({
 		"estado":"Nueva placa registrada de forma correcta",
 		"la placa registrada fue: ": nuevaPlaca
-	})
+	}), 201
 
 @app.route('/api/peritajes', methods=['GET'])
 def traer_peritajes():
